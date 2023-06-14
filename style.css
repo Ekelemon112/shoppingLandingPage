@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/TD/v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+ 
+.project{
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.project h1{
+    font-family: serif;
+    color: #fff;
+}
+
+.project ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    padding-left: 20rem;  
+}
+
+.project ul li a{
+      color: #fff;
+      text-decoration: none;
+      font-weight: 900;
+}
+
+.project ul li a:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+
+.project i{
+    font-size: 25px;
+    border: solid #fff;
+    background-color: #fff;
+    border-radius: 5rem;
+    width: 25px;
+    height: 26px;
+    color: gold;
+}
+
+.hero {
+  display: flex; 
+  overflow: hidden;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.text{
+   padding-top: 16rem;
+}
+
+.text h2{
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text p{
+    color: #fff;
+}
+
+.work{
+    padding: 2rem;
+    gap: 11rem;
+    display: flex;
+    background-color: #fff;
+}
+
+.from h3{
+    font-family: 'Roboto', sans-serif;
+    width: 30px;
+}
+
+.from h4{
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.from p{
+    width: 150px;
+}
+
